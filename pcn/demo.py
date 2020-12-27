@@ -48,7 +48,7 @@ def parse_args():
     parser.add_argument('-i', '--input_path', type=str, default='demo_data/car.pcd', help='path to the input point cloud')
     parser.add_argument('-o', '--output_path', type=str, help='path to the output directory')
     parser.add_argument('-m', '--model_type', type=str, default='pcn_cd', help='model type')
-    parser.add_argument('-c', '--checkpoint', type=str, default='data/trained_models/pcn_cd', help='path to the checkpoint')
+    parser.add_argument('-c', '--checkpoint', type=str, default='/PCN/MyDrive/trained_models-20201222T171312Z-001/trained_models/', help='path to the checkpoint')
     parser.add_argument('-n', '--num_gt_points', type=int, default=16384, help='number of ground truth points')
     args = parser.parse_args()
 
